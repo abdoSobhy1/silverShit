@@ -21,9 +21,9 @@ const Offer = (props) => {
           )}
         </div>
         <p className={classes.desc}>{props.desc}</p>
-        <Btn className={classes.btn} to={`/tours/${props.id}`}>
+        <a className={classes.btn} href={`/tours/${props.id}`}>
           {props.cta}
-        </Btn>
+        </a>
       </div>
     </div>
   );

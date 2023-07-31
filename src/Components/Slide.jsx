@@ -8,9 +8,9 @@ const slide = (props) => {
       <div className={classes["slide-content"]}>
         <h2>{props.title}</h2>
         <p>{props.desc}</p>
-        <Btn to={props.to} className={classes.btn}>
+        <a to={props.to} className={classes.btn}>
           احجز الآن
-        </Btn>
+        </a>
       </div>
     </div>
   );

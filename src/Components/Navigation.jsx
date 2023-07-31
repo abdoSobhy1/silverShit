@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
 import classes from "./Navigation.module.css";
 import logoWhite from "../assets/images/logo-white.png";
 import hamStyles from "../assets/hamburgers.module.css";
@@ -14,9 +13,9 @@ const Navigation = () => {
     <nav>
       <Container className={classes["nav-container"]}>
         <div className={classes.logo}>
-          <Link to="/">
+          <a href="/">
             <img src={logoWhite} alt="SilverJarz" />
-          </Link>
+          </a>
         </div>
         <button
           className={`${hamStyles.hamburger} ${hamStyles["hamburger--slider"]}`}
@@ -33,64 +32,64 @@ const Navigation = () => {
           }`}
         >
           <li>
-            <NavLink
-              to="/"
+            <a
+              href="/"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? `${classes.active}` : ""
               }
             >
               الرئيسية
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
-              to="./visas"
+            <a
+              href="./visas"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? `${classes.active}` : ""
               }
             >
               تأشيرات سياحية
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
-              to="./tickets"
+            <a
+              href="./tickets"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? `${classes.active}` : ""
               }
             >
               حجز تذاكر طيران
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
-              to="./tours"
+            <a
+              href="./tours"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? `${classes.active}` : ""
               }
             >
               جولات سياحية
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
-              to="./car-rental"
+            <a
+              href="./car-rental"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? `${classes.active}` : ""
               }
             >
               تأجير سيارات
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
-              to="./contact"
+            <a
+              href="./contact"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? `${classes.active}` : ""
               }
             >
               اتصل بنا
-            </NavLink>
+            </a>
           </li>
         </ul>
       </Container>

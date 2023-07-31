@@ -16,8 +16,8 @@ const AboutSec = () => {
             والعديد من الخدمات السياحية والسفرية والترفيهية والترفيهية والترفيه
           </p>
           <div className={classes.buttons}>
-            <Btn className={classes.button}>اقرأ المزيد</Btn>
-            <Btn className={classes.alt}>اتصل بنا</Btn>
+            <a className={classes.button}>اقرأ المزيد</a>
+            <a className={classes.alt}>اتصل بنا</a>
           </div>
         </div>
       </Container>

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
@@ -15,10 +14,10 @@ const Footer = () => {
         <div className={classes.top}>
           <div className={classes.menu}>
             <h3 className={classes.title}>القائمة الرئيسية</h3>
-            <Link to="/">الرئيسية</Link>
-            <Link to="/create-trip">اصنع رحلتك</Link>
-            <Link to="/about">من نحن</Link>
-            <Link to="/contact">اتصل بنا</Link>
+            <a to="/">الرئيسية</a>
+            <a to="/create-trip">اصنع رحلتك</a>
+            <a to="/about">من نحن</a>
+            <a to="/contact">اتصل بنا</a>
           </div>
           <div className={classes.contact}>
             <h3 className={classes.title}>اتصل بنا</h3>
