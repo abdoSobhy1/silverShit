@@ -1,0 +1,36 @@
+.sidebar {
+  background-color: rgba(41, 75, 90, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sidebar > div {
+  margin-bottom: 10px;
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar > div:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.sidebar > div h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.sidebar > div p {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .sidebar > div {
+    width: calc(50% - 10px);
+    border-bottom: 0;
+  }
+  .sidebar > div:nth-child(odd) {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}

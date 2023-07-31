@@ -1,0 +1,19 @@
+.promoSlider .slick-track {
+  display: grid;
+  gap: 30px;
+  grid-template-rows: min-content;
+  grid-auto-flow: column;
+}
+
+.promoSlider .slick-slide {
+  float: none;
+  height: 100%;
+}
+
+.promoSlider .slick-slide > div {
+  height: 100%;
+}
+
+.promoSlider .slick-slide > div > div {
+  height: 100%;
+}

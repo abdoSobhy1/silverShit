@@ -1,0 +1,168 @@
+.visa-type {
+  background-color: #eee;
+  border-radius: 20px;
+  padding: 30px;
+  flex-basis: calc(100% / 3 - 20px);
+}
+
+.visa-type .title h3 {
+  text-align: left;
+  color: #333333;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.visa-type .title p {
+  color: var(--main-color);
+  font-size: 22px;
+  font-weight: 500;
+}
+.visa-type .info {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.visa-type .info::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--main-color);
+}
+
+.visa-type .info .price {
+  color: #333333;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.visa-type .info .price span:first-of-type {
+  color: var(--main-color);
+}
+
+.visa-type .info .type-selector {
+  display: flex;
+  gap: 10px;
+}
+
+.visa-type .info .type-selector div:first-of-type {
+  position: relative;
+  left: -55px;
+}
+
+.visa-type .info .type-selector input {
+  display: none;
+}
+
+.visa-type .info .type-selector input + label {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  top: -100%;
+  left: -55px;
+}
+
+.visa-type .info .type-selector input + label::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 25px;
+  appearance: none;
+  background: white;
+  outline: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  box-shadow: inset 0 0 3px rgb(0 0 0 / 30%);
+  transition: 0.3s;
+}
+
+.visa-type .info .type-selector input + label::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  appearance: none;
+  background: var(--main-color);
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+  left: 0;
+  transition: 0.3s;
+}
+
+.visa-type .info .type-selector input:checked + label::before {
+  background-color: var(--main-color);
+}
+
+.visa-type .info .type-selector input:checked + label::after {
+  left: 30px;
+  background-color: white;
+}
+
+.visa-type .type {
+  margin-top: 20px;
+}
+
+.visa-type .type ul {
+  list-style: disc;
+}
+
+.visa-type .type ul li {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.visa-type .type ul li p {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--main-color);
+  margin-bottom: 5px;
+}
+
+.visa-type .type ul li::marker {
+  font-size: 12px;
+}
+
+.visa-type.regular .type .express {
+  display: none;
+}
+
+.visa-type.express .type .regular {
+  display: none;
+}
+
+.visa-type .button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn {
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .visa-type {
+    flex-basis: 0;
+    width: 100%;
+  }
+
+  .visa-type .info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .visa-type .type-selector {
+    transform: translateX(55px);
+  }
+}

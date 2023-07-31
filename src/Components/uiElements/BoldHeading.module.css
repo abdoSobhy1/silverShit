@@ -1,0 +1,10 @@
+.main-heading {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: var(--main-color);
+}
+
+span.bold {
+  font-weight: 700;
+}

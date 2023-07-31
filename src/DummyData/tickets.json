@@ -1,0 +1,402 @@
+[
+  {
+    "id": "dubai",
+    "imageSrc": "src/assets/images/tickets/dubai.jpg",
+    "title": "Dubai, United Arab Emirates",
+    "description": "Experience the glamour and modernity of Dubai, known for its skyscrapers, luxury shopping, and desert adventures.",
+    "feats": [
+      {
+        "title": "Burj Khalifa",
+        "description": "Visit the iconic Burj Khalifa, the world's tallest building, and enjoy stunning views from its observation decks."
+      },
+      {
+        "title": "Dubai Mall",
+        "description": "Indulge in luxury shopping and entertainment at the vast Dubai Mall, home to numerous international brands and attractions."
+      },
+      {
+        "title": "Desert Safari",
+        "description": "Embark on a thrilling desert safari to experience sand dunes, camel rides, and traditional Bedouin-style camps."
+      },
+      {
+        "title": "Palm Jumeirah",
+        "description": "Relax on the artificial island of Palm Jumeirah and enjoy its upscale resorts and beautiful beaches."
+      },
+      {
+        "title": "Dubai Creek",
+        "description": "Take a traditional abra boat ride along Dubai Creek, a historic waterway that showcases the city's heritage."
+      }
+    ],
+    "faq": [
+      {
+        "title": "Best time to visit",
+        "description": "The best time to visit Dubai is during the cooler months from November to March."
+      },
+      {
+        "title": "Language",
+        "description": "Arabic is the official language, but English is widely spoken, especially in tourist areas."
+      },
+      {
+        "title": "Currency",
+        "description": "The currency used in Dubai is the UAE Dirham (AED)."
+      },
+      {
+        "title": "Transportation",
+        "description": "Dubai has an efficient public transportation system, including the Dubai Metro and buses."
+      },
+      {
+        "title": "Local Cuisine",
+        "description": "Try delicious Arabic dishes such as shawarma, falafel, and hummus."
+      }
+    ]
+  },
+  {
+    "id": "cairo",
+    "imageSrc": "src/assets/images/tickets/cairo.jpg",
+    "title": "Cairo, Egypt",
+    "description": "Discover the ancient city of Cairo, Egypt's capital, with its historic landmarks and rich cultural heritage.",
+    "feats": [
+      {
+        "title": "Giza Pyramids",
+        "description": "Marvel at the majestic Giza Pyramids, including the Great Pyramid of Khufu, one of the Seven Wonders of the Ancient World."
+      },
+      {
+        "title": "Egyptian Museum",
+        "description": "Explore the Egyptian Museum in Tahrir Square, home to an extensive collection of ancient artifacts and treasures."
+      },
+      {
+        "title": "Khan El-Khalili",
+        "description": "Shop for traditional souvenirs and immerse yourself in the bustling atmosphere of Khan El-Khalili, Cairo's famous bazaar."
+      },
+      {
+        "title": "Islamic Cairo",
+        "description": "Discover the historic mosques, madrasas, and winding streets of Islamic Cairo, reflecting Egypt's Islamic heritage."
+      },
+      {
+        "title": "Nile River Cruise",
+        "description": "Take a leisurely cruise on the Nile River to witness the city's landmarks from the water."
+      }
+    ],
+    "faq": [
+      {
+        "title": "Best time to visit",
+        "description": "The best time to visit Cairo is during the cooler months from October to April."
+      },
+      {
+        "title": "Language",
+        "description": "Arabic is the official language, and English is widely understood, especially in tourist areas."
+      },
+      {
+        "title": "Currency",
+        "description": "The currency used in Egypt is the Egyptian Pound (EGP)."
+      },
+      {
+        "title": "Transportation",
+        "description": "Cairo has various transportation options, including taxis, buses, and the Cairo Metro."
+      },
+      {
+        "title": "Safety",
+        "description": "Exercise caution and stay updated on travel advisories, especially in certain areas."
+      }
+    ]
+  },
+  {
+    "id": "riyadh",
+    "imageSrc": "src/assets/images/tickets/riyadh.jpg",
+    "title": "Riyadh, Saudi Arabia",
+    "description": "Discover the modern capital of Saudi Arabia, Riyadh, with its towering skyscrapers, traditional souks, and cultural attractions.",
+    "feats": [
+      {
+        "title": "Kingdom Centre Tower",
+        "description": "Visit the Kingdom Centre Tower, an iconic skyscraper with an observation deck offering panoramic views of the city."
+      },
+      {
+        "title": "Diriyah",
+        "description": "Explore Diriyah, a UNESCO-listed site with historic mud-brick architecture and the birthplace of the Saudi state."
+      },
+      {
+        "title": "Al-Masmak Fortress",
+        "description": "Learn about Saudi Arabia's history at Al-Masmak Fortress, a museum showcasing artifacts and exhibits."
+      },
+      {
+        "title": "Al-Dirah Souq",
+        "description": "Shop for traditional goods and souvenirs at Al-Dirah Souq, a bustling market with a wide range of products."
+      },
+      {
+        "title": "Edge of the World",
+        "description": "Embark on a day trip to the Edge of the World, a stunning geological formation on the outskirts of Riyadh."
+      }
+    ],
+    "faq": [
+      {
+        "title": "Best time to visit",
+        "description": "The best time to visit Riyadh is during the cooler months from November to March."
+      },
+      {
+        "title": "Language",
+        "description": "Arabic is the official language, and English is commonly used in business and hospitality sectors."
+      },
+      {
+        "title": "Currency",
+        "description": "The currency used in Saudi Arabia is the Saudi Riyal (SAR)."
+      },
+      {
+        "title": "Transportation",
+        "description": "Riyadh has a growing public transportation system, including buses and ride-hailing services."
+      },
+      {
+        "title": "Local Cuisine",
+        "description": "Try traditional Saudi Arabian dishes such as kabsa, mutabbaq, and dates."
+      }
+    ]
+  },
+  {
+    "id": "marrakech",
+    "imageSrc": "src/assets/images/tickets/marrakech.jpg",
+    "title": "Marrakech, Morocco",
+    "description": "Immerse yourself in the vibrant colors, spices, and culture of Marrakech, a city with a mix of ancient and modern charm.",
+    "feats": [
+      {
+        "title": "Jemaa el-Fnaa",
+        "description": "Experience the lively atmosphere of Jemaa el-Fnaa square, where street performers, food stalls, and market vendors come together."
+      },
+      {
+        "title": "Majorelle Garden",
+        "description": "Stroll through the serene Majorelle Garden, a beautiful oasis with exotic plants and cobalt-blue buildings."
+      },
+      {
+        "title": "Bahia Palace",
+        "description": "Explore the stunning Bahia Palace, a grand 19th-century residence showcasing intricate Islamic architecture."
+      },
+      {
+        "title": "Medina Souks",
+        "description": "Get lost in the maze-like streets of the Medina and bargain for souvenirs, textiles, and local crafts."
+      },
+      {
+        "title": "Atlas Mountains",
+        "description": "Take a day trip to the nearby Atlas Mountains to enjoy breathtaking views and nature hikes."
+      }
+    ],
+    "faq": [
+      {
+        "title": "Best time to visit",
+        "description": "The best time to visit Marrakech is during spring (March to May) and autumn (September to November) for pleasant weather."
+      },
+      {
+        "title": "Language",
+        "description": "Arabic is the official language, but French is also widely spoken, especially in tourist areas."
+      },
+      {
+        "title": "Currency",
+        "description": "The currency used in Morocco is the Moroccan Dirham (MAD)."
+      },
+      {
+        "title": "Transportation",
+        "description": "Marrakech has a network of taxis, buses, and horse-drawn carriages (calèches) for getting around."
+      },
+      {
+        "title": "Local Cuisine",
+        "description": "Taste delicious Moroccan dishes such as tagine, couscous, and mint tea."
+      }
+    ]
+  },
+  {
+    "id": "beirut",
+    "imageSrc": "src/assets/images/tickets/beirut.jpg",
+    "title": "Beirut, Lebanon",
+    "description": "Discover the captivating city of Beirut, known for its mix of historical sites, modern architecture, and vibrant nightlife.",
+    "feats": [
+      {
+        "title": "National Museum of Beirut",
+        "description": "Explore the National Museum of Beirut, home to a vast collection of artifacts from Lebanon's ancient and recent history."
+      },
+      {
+        "title": "Pigeon Rocks",
+        "description": "Admire the natural rock formations of Pigeon Rocks (Raouché) rising from the sea along Beirut's coastline."
+      },
+      {
+        "title": "Downtown Beirut",
+        "description": "Stroll through Downtown Beirut, a modern district with stylish boutiques, cafes, and cultural attractions."
+      },
+      {
+        "title": "Jeita Grotto",
+        "description": "Take a day trip to Jeita Grotto, a magnificent cave system with stunning stalactites and stalagmites."
+      },
+      {
+        "title": "Byblos",
+        "description": "Visit the ancient city of Byblos, one of the oldest continuously inhabited cities in the world."
+      }
+    ],
+    "faq": [
+      {
+        "title": "Best time to visit",
+        "description": "The best time to visit Beirut is during spring (March to May) and autumn (September to November) for mild weather."
+      },
+      {
+        "title": "Language",
+        "description": "Arabic is the official language, and many people also speak English and French."
+      },
+      {
+        "title": "Currency",
+        "description": "The currency used in Lebanon is the Lebanese Pound (LBP)."
+      },
+      {
+        "title": "Transportation",
+        "description": "Beirut has taxis, buses, and shared vans (service) as primary modes of transportation."
+      },
+      {
+        "title": "Safety",
+        "description": "Beirut is generally safe for tourists, but it's advisable to stay informed about local situations."
+      }
+    ]
+  },
+  {
+    "id": "abu-dhabi",
+    "imageSrc": "src/assets/images/tickets/abu-dhabi.jpg",
+    "title": "Abu Dhabi, United Arab Emirates",
+    "description": "Explore the sophisticated city of Abu Dhabi, the capital of the UAE, with its futuristic architecture and cultural landmarks.",
+    "feats": [
+      {
+        "title": "Sheikh Zayed Grand Mosque",
+        "description": "Visit the magnificent Sheikh Zayed Grand Mosque, one of the largest mosques in the world."
+      },
+      {
+        "title": "Louvre Abu Dhabi",
+        "description": "Discover the remarkable Louvre Abu Dhabi, an art and civilization museum that showcases global heritage."
+      },
+      {
+        "title": "Emirates Palace",
+        "description": "Experience luxury at the Emirates Palace, a grand hotel with opulent interiors and a private beach."
+      },
+      {
+        "title": "Ferrari World",
+        "description": "Have a thrilling time at Ferrari World, an indoor amusement park featuring high-speed rides and attractions."
+      },
+      {
+        "title": "Corniche Beach",
+        "description": "Relax and unwind at Corniche Beach, a picturesque waterfront promenade with sandy beaches."
+      }
+    ],
+    "faq": [
+      {
+        "title": "Best time to visit",
+        "description": "The best time to visit Abu Dhabi is during the cooler months from November to April."
+      },
+      {
+        "title": "Language",
+        "description": "Arabic is the official language, but English is widely spoken, especially in the hospitality industry."
+      },
+      {
+        "title": "Currency",
+        "description": "The currency used in Abu Dhabi is the UAE Dirham (AED)."
+      },
+      {
+        "title": "Transportation",
+        "description": "Abu Dhabi has an efficient public transportation system, including buses and taxis."
+      },
+      {
+        "title": "Local Cuisine",
+        "description": "Enjoy a mix of Arabic and international cuisines at Abu Dhabi's diverse restaurants."
+      }
+    ]
+  },
+  {
+    "id": "amman",
+    "imageSrc": "src/assets/images/tickets/amman.png",
+    "title": "Amman, Jordan",
+    "description": "Explore the historic city of Amman, Jordan's capital, with its ancient ruins, vibrant markets, and hilltop citadels.",
+    "feats": [
+      {
+        "title": "Roman Theatre",
+        "description": "Visit the well-preserved Roman Theatre, a 2nd-century amphitheater still used for events today."
+      },
+      {
+        "title": "Amman Citadel",
+        "description": "Discover the Amman Citadel, a historic site with ancient ruins and panoramic views of the city."
+      },
+      {
+        "title": "Rainbow Street",
+        "description": "Wander along Rainbow Street, known for its cafes, art galleries, and lively atmosphere."
+      },
+      {
+        "title": "Souk Jara",
+        "description": "Experience Souk Jara, an open-air market where local artisans sell crafts, clothing, and delicious food."
+      },
+      {
+        "title": "Dead Sea",
+        "description": "Take a day trip to the Dead Sea, the lowest point on Earth, and float effortlessly in its salty waters."
+      }
+    ],
+    "faq": [
+      {
+        "title": "Best time to visit",
+        "description": "The best time to visit Amman is during spring (March to May) and autumn (September to November) for mild weather."
+      },
+      {
+        "title": "Language",
+        "description": "Arabic is the official language, but English is widely understood, especially in tourist areas."
+      },
+      {
+        "title": "Currency",
+        "description": "The currency used in Jordan is the Jordanian Dinar (JOD)."
+      },
+      {
+        "title": "Transportation",
+        "description": "Amman has taxis and buses for local transportation, and it serves as a hub for travel within Jordan."
+      },
+      {
+        "title": "Local Cuisine",
+        "description": "Savor delicious Jordanian dishes such as mansaf, falafel, and knafeh."
+      }
+    ]
+  },
+  {
+    "id": "riyadh",
+    "imageSrc": "src/assets/images/tickets/riyadh.jpg",
+    "title": "Riyadh, Saudi Arabia",
+    "description": "Discover the modern capital of Saudi Arabia, Riyadh, with its towering skyscrapers, traditional souks, and cultural attractions.",
+    "feats": [
+      {
+        "title": "Kingdom Centre Tower",
+        "description": "Visit the Kingdom Centre Tower, an iconic skyscraper with an observation deck offering panoramic views of the city."
+      },
+      {
+        "title": "Diriyah",
+        "description": "Explore Diriyah, a UNESCO-listed site with historic mud-brick architecture and the birthplace of the Saudi state."
+      },
+      {
+        "title": "Al-Masmak Fortress",
+        "description": "Learn about Saudi Arabia's history at Al-Masmak Fortress, a museum showcasing artifacts and exhibits."
+      },
+      {
+        "title": "Al-Dirah Souq",
+        "description": "Shop for traditional goods and souvenirs at Al-Dirah Souq, a bustling market with a wide range of products."
+      },
+      {
+        "title": "Edge of the World",
+        "description": "Embark on a day trip to the Edge of the World, a stunning geological formation on the outskirts of Riyadh."
+      }
+    ],
+    "faq": [
+      {
+        "title": "Best time to visit",
+        "description": "The best time to visit Riyadh is during the cooler months from November to March."
+      },
+      {
+        "title": "Language",
+        "description": "Arabic is the official language, and English is commonly used in business and hospitality sectors."
+      },
+      {
+        "title": "Currency",
+        "description": "The currency used in Saudi Arabia is the Saudi Riyal (SAR)."
+      },
+      {
+        "title": "Transportation",
+        "description": "Riyadh has a growing public transportation system, including buses and ride-hailing services."
+      },
+      {
+        "title": "Local Cuisine",
+        "description": "Try traditional Saudi Arabian dishes such as kabsa, mutabbaq, and dates."
+      }
+    ]
+  }
+]

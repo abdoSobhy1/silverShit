@@ -1,0 +1,164 @@
+nav {
+  background-color: var(--black);
+  direction: rtl;
+  height: 80px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 75px;
+}
+
+nav .main-menu {
+  display: flex;
+  gap: 15px;
+  transition: 0.3s;
+}
+
+nav .main-menu li {
+  position: relative;
+  height: 100%;
+}
+
+nav .main-menu > li > a {
+  justify-content: center;
+  color: white;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+
+nav li a {
+  display: flex;
+  color: white;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+nav li a:hover,
+nav li a.active {
+  color: var(--alt-color);
+}
+
+nav li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 0;
+  height: 3px;
+  background-color: var(--alt-color);
+  transition: 0.3s;
+}
+
+nav li a:hover::after,
+.active::after {
+  width: 100%;
+}
+
+nav li a i {
+  margin-right: 10px;
+}
+
+nav .sub-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: rgba(52, 50, 51, 0.8);
+  transition: 0.3s;
+  z-index: 999999999;
+}
+
+nav li:hover .sub-menu {
+  display: flex;
+}
+
+nav .sub-menu li a {
+  white-space: nowrap;
+  height: 40px;
+}
+
+@media (min-width: 769px) {
+  .logo.logo-phone {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  nav .container {
+    position: relative;
+    direction: ltr;
+  }
+
+  nav .main-menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 9999999999;
+    background-color: var(--black);
+    transition: 0.5s;
+  }
+
+  nav .main-menu.active {
+    max-height: 150vh;
+  }
+
+  nav .main-menu > li > a {
+    height: 40px;
+    direction: rtl;
+    align-items: center;
+  }
+
+  nav .main-menu > li > a:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  nav li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  nav li .sub-menu {
+    position: static;
+    display: flex;
+    transform: none;
+  }
+
+  nav li .sub-menu {
+    padding: 0;
+    max-height: 0;
+    transition: 0.3s;
+  }
+
+  nav li.shown .sub-menu {
+    max-height: 300px;
+  }
+}

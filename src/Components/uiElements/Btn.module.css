@@ -1,0 +1,21 @@
+.btn {
+  margin-right: auto;
+  background-image: linear-gradient(
+    to right,
+    var(--black) 50%,
+    transparent 50%
+  );
+  background-size: 200%;
+  background-position: right -1px;
+  color: var(--black);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid var(--black);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-position: left -3px;
+  color: white;
+}

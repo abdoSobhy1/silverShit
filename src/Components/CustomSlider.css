@@ -1,0 +1,29 @@
+@keyframes zoom-in {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+/* 
+[aria-hidden="false"] img {
+  animation: zoom-in 4s linear;
+} */
+
+.landing .slick-slider {
+  position: relative;
+}
+
+.landing .slick-slide {
+  height: calc(100dvh - 80px) !important;
+}
+
+.landing .slick-slide > div {
+  height: 100%;
+}
+
+.landing .slick-list {
+  margin: 0;
+  height: calc(100dvh - 70px);
+}
